@@ -153,7 +153,7 @@ const LogIn = () => {
                         </button>
                         <div className=" flex gap-1 mt-1 text-white">
                             <input type="checkbox" />
-                            <p>Don't try Remember me</p>
+                            <p>Don't Remember me</p>
                         </div>
                         <p className="text-white cursor-pointer" onClick={handelSign}>
                             {isSign === "Log In"
